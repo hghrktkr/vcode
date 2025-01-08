@@ -9,7 +9,7 @@
     },
     "files": [
       "vcode.ts",
-      "tutorial.md"
+      "mission4-1-limited.md"
     ],
     "public": true,
     "targetVersions": {
