@@ -3,11 +3,21 @@
     "description": "Tutorial with custom blocks",
     "dependencies": {
       "core": "*",
+      "builder": "*",
       "minecraft": "*",
       "customblocks": "github:hghrktkr/vcode"
     },
     "files": [
       "vcode.ts",
       "tutorial.md"
-    ]
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "1.8.5",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "blocksprj"
   }
