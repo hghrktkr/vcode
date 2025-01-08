@@ -5,7 +5,7 @@ namespace vcodeCustomBlocks {
      * @param startPosition the position to place the block
      */
     //% block="fill with 4 blocks"
-    export function (blockType: Block, startPosition: Position): void {
+    export function fillWith4Blocks(startPosition: Position): void {
         blocks.fill(
             IRON_BLOCK,
             startPosition,
