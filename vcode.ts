@@ -1,6 +1,6 @@
 //enums
 
-//%  block="V-code" weight=200 color=#0B3D91 icon="\uf186"
+//%  block="VCODE" weight=200 color=#0B3D91 icon="\uf186"
 
 namespace vcodeCustomBlocks {
     /**
