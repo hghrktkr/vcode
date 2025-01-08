@@ -1,13 +1,19 @@
-namespace customBlocks {
+namespace vcodeCustomBlocks {
     /**
      * Place a custom block
      * @param blockType the block to place
-     * @param x x coordinate
-     * @param y y coordinate
-     * @param z z coordinate
+     * @param startPosition the position to place the block
      */
-    //% block="place custom block %blockType at x %x y %y z %z"
-    export function placeCustomBlock(blockType: Block, x: number, y: number, z: number): void {
-        blocks.place(blockType, positions.create(x, y, z));
+    //% block="fill with 4 blocks"
+    export function (blockType: Block, startPosition: Position): void {
+        blocks.fill(
+            IRON_BLOCK,
+            startPosition,
+            positions.add(
+            startPosition,
+            pos(3, 0, 0)
+            ),
+            FillOperation.Replace
+            );
     }
 }
