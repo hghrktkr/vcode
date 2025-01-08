@@ -1,6 +1,6 @@
 namespace vcodeCustomBlocks {
     /**
-     * Place a custom block
+     * Fill with 4 blocks in a row
      * @param blockType the block to place
      * @param startPosition the position to place the block
      */
