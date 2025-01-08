@@ -1,10 +1,14 @@
+//enums
+
+//%  block="V-code" weight=200 color=#0B3D91 icon="\uf186"
+
 namespace vcodeCustomBlocks {
     /**
      * Fill with 4 blocks in a row
      * @param blockType the block to place
      * @param startPosition the position to place the block
      */
-    //% block="fill with 4 blocks" weight=200 color=#0B3D91 icon="\uf186"
+    //% block="fill with 4 blocks"
     export function fillWith4Blocks(startPosition: Position): void {
         blocks.fill(
             IRON_BLOCK,
