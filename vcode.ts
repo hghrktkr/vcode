@@ -1,11 +1,11 @@
-namespace vcode {
+namespace vcodeCustomBlocks {
     /**
-     * Place 4 iron blocks in a row
+     * Place a custom block
      * @param blockType the block to place
      * @param startPosition the position to place the block
      */
     //% block="fill with 4 blocks"
-    export function fillBllocks(startPosition: Position): void {
+    export function fillWith4Blocks(startPosition: Position): void {
         blocks.fill(
             IRON_BLOCK,
             startPosition,
