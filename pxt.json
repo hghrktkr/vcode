@@ -1,0 +1,13 @@
+{
+    "name": "customblocks-tutorial",
+    "description": "Tutorial with custom blocks",
+    "dependencies": {
+      "core": "*",
+      "minecraft": "*",
+      "customblocks": "github:hghrktkr/vcode"
+    },
+    "files": [
+      "vcode.ts",
+      "tutorial.md"
+    ]
+  }
