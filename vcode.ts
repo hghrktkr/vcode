@@ -1,7 +1,3 @@
-//enums
-
-//%  block="VCODE" weight=200 color=#0B3D91 icon="\uf186"
-
 namespace vcodeCustomBlocks {
     /**
      * Fill with 4 blocks in a row
