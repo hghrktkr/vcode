@@ -13,7 +13,7 @@
     ],
     "public": true,
     "targetVersions": {
-        "target": "1.8.5",
+        "target": "2.0.28",
         "targetId": "minecraft"
     },
     "supportedTargets": [
